@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.translation.daemon2</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/sam/.pyenv/versions/3.14.3/bin/python3.14</string>
+        <string>/Users/sam/repo/translation-daemon/src/daemon.py</string>
+        <string>--config</string>
+        <string>/Users/sam/.config/translation-daemon/config.yaml</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardErrorPath</key>
+    <string>/tmp/translation-daemon2.err</string>
+    <key>StandardOutPath</key>
+    <string>/tmp/translation-daemon2.out</string>
+</dict>
+</plist>

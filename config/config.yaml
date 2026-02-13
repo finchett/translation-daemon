@@ -1,0 +1,10 @@
+# Translation Daemon Configuration
+watch_directory: "~/records/jp"
+output_directory: "~/records/en" # Optional: directory to save translated files (leave empty or comment out to save in watch_directory)
+log_file: "/tmp/translation-daemon.log"
+state_file: "~/.config/translation-daemon/state.json"
+
+# Google Cloud Settings
+project_id: "PROJECT_ID"
+location: "us-central1"
+target_language: "en"
